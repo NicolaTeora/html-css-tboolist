@@ -105,12 +105,22 @@ p{
     color: rgb(128, 0, 0);
 }
 
+.label{
+    /*border: 1px solid black;*/
+    border-radius: 15px;
+    width: 85px;
+    text-align: center;
+    padding: 5px;
+    color: whitesmoke;
+    display: inline-block;
+}
+
 .editorial{
     background-color: rgb(0, 162, 255);
 }
 
 .q1-goals{
-    background-color: rgb(255, 0, 255);
+    background-color: blueviolet; 
 }
 
 .recruting{
@@ -121,12 +131,10 @@ p{
     background-color: orange;
 }
 
-.label{
-    /*border: 1px solid black;*/
-    border-radius: 15px;
-    width: 85px;
-    text-align: center;
-    padding: 5px;
-    color: whitesmoke;
-    display: inline-block;
+.website{
+    background-color: rgb(255, 0, 255);;
+}
+
+.sales{
+    background-color: rgb(149, 196, 79);
 }
