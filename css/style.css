@@ -79,6 +79,7 @@ main{
 
 .new-task{
     font-family: system-ui;
+    margin-top: 25px;
 }
 
 p{
@@ -88,8 +89,7 @@ p{
     margin-left: 10px;
 }
 
-.check{
-    color: green;
+.entity{
     border: 1px solid;
     border-radius: 50%;
     width: 25px;
@@ -97,11 +97,34 @@ p{
     text-align: center;
 }
 
+.check{
+    color: green;
+}
+
+.cross{
+    color: rgb(128, 0, 0);
+}
+
 .editorial{
+    background-color: rgb(0, 162, 255);
+}
+
+.q1-goals{
+    background-color: rgb(255, 0, 255);
+}
+
+.recruting{
+    background-color: rgb(19, 133, 25);
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.label{
     /*border: 1px solid black;*/
     border-radius: 15px;
     width: 85px;
-    background-color: rgb(0, 162, 255);
     text-align: center;
     padding: 5px;
     color: whitesmoke;
