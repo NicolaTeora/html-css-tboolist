@@ -15,7 +15,7 @@ body{
 header{
     background-color: white;
     line-height: 65px;
-    border: 1px solid black;
+   /* border: 1px solid black; */
     padding-left: 20px;
 }
 
@@ -27,4 +27,46 @@ h1{
     display: inline;
     vertical-align: middle;
     font-family: system-ui;
+}
+
+/* CONTENITORE */
+
+.container{
+    width: 300px;
+    /*border: 1px solid black;*/
+    margin-top: 40px;
+    margin-left: 70px;
+    border-radius: 7%;
+}
+
+/* NAV */
+
+nav{
+    border-bottom: aquamarine;
+    background-color: white;
+    border-bottom: 4px;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.botton-task{
+    /*border: 1px solid black;*/
+    border-radius: 7%;
+    width: 85px;
+    background-color: rgb(0, 162, 255);
+    text-align: center;
+    padding: 5px;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.botton-section{
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 7%;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    color: rgb(163, 163, 163);
+    display: inline-block;
 }
