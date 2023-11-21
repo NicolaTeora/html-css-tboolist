@@ -6,4 +6,25 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: aquamarine;
+}
 
+/* HEADER */
+
+header{
+    background-color: white;
+    line-height: 65px;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline;
+    vertical-align: middle;
+    font-family: system-ui;
+}
